@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #2d414b;
+}
+
+#gameContainer {
+    font-family: "Finger Paint", cursive;
+    color: #F2c14e;
+    font-size: 30px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.cell {
+    width: 75px;
+    height: 75px;
+    border: 2px solid;
+    border-radius: 5px;
+    box-shadow: 0 0 0 2px;
+    line-height: 75px;
+    font-size: 50px;
+    cursor: pointer;
+}
+
+#cellContainer {
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    width: 225px;
+    margin: auto;
+}
+
+button {
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: #F2c14e;
+    color: #333;
+    border-color: #F2c14e;
+    font-size: 15px;
+    transition: 200ms transform;
+    font-weight: 600;
+    cursor: pointer;
+}
+
